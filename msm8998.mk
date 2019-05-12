@@ -400,6 +400,13 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     vendor.qti.hardware.vibrator.service
 
+# VNDK
+PRODUCT_PACKAGES += \
+    libdng_sdk.vendor_32 \
+    libstdc++.vendor \
+    vndk-ext \
+    vndk_package
+
 # Trust HAL
 PRODUCT_PACKAGES += \
     vendor.lineage.trust@1.0-service
