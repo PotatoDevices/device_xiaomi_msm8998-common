@@ -25,8 +25,9 @@
 /(vendor|system/vendor)/bin/mtd@1.2                           u:object_r:hal_mtdservice_default_exec:s0
 /(vendor|system/vendor)/bin/tidad@1.1                         u:object_r:hal_tidaservice_default_exec:s0
 
-# Root extra symlink
-/persist                                                      u:object_r:mnt_vendor_file:s0
+# Rootfs files
+/bt_firmware(/.*)?                                            u:object_r:bt_firmware_file:s0
+/firmware(/.*)?                                               u:object_r:firmware_file:s0
 
 # Sensors
 /(vendor|system/vendor)/bin/init\.panel_info\.sh              u:object_r:qti_init_shell_exec:s0
