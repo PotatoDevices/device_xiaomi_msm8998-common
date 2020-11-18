@@ -300,6 +300,10 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/nfc/libnfc-nci.conf:$(TARGET_COPY_OUT_PRODUCT)/etc/libnfc-nci.conf \
     $(LOCAL_PATH)/configs/nfc/libnfc-nxp.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp.conf
 
+# Minijail
+PRODUCT_PACKAGES += \
+    libavservices_minijail.vendor
+
 # OMX
 PRODUCT_PACKAGES += \
     libc2dcolorconvert \
