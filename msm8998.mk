@@ -407,6 +407,22 @@ PRODUCT_PACKAGES += \
     vndk-ext \
     vndk_package
 
+PRODUCT_PACKAGES += \
+    android.frameworks.bufferhub@1.0.vendor \
+    android.hardware.power-V2-cpp.vendor \
+    audioclient-types-aidl-cpp.vendor \
+    audioflinger-aidl-cpp.vendor \
+    audiopolicy-aidl-cpp.vendor \
+    av-types-aidl-cpp.vendor \
+    libaudioclient_aidl_conversion.vendor \
+    libaudiofoundation.vendor \
+    libshmemcompat.vendor \
+    libmedia_omx.vendor \
+    libvibrator.vendor \
+    libmemunreachable.vendor \
+    libandroid_runtime_lazy.vendor \
+    mediametricsservice-aidl-cpp.vendor
+
 # Trust HAL
 PRODUCT_PACKAGES += \
     vendor.lineage.trust@1.0-service
