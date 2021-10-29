@@ -40,6 +40,7 @@ EXTRA_VENDOR_LIBRARIES_32 := \
     libpackagelistparser \
     libpdx_default_transport \
     libselinux \
+    libstdc++ \
     libsonivox \
     libstagefright_foundation \
     libpermission
@@ -50,4 +51,5 @@ EXTRA_VENDOR_LIBRARIES_64 := \
     libaudiopolicy \
     libmediametrics \
     libmediautils \
-    libnblog
+    libnblog \
+    libstdc++
